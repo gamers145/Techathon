@@ -58,7 +58,7 @@ while True:
         pyautogui.mouseUp()  # Simulate left mouse button up
 
     # Display the frame with face detection and nose tracking
-    cv2.imshow('Nose Tracking', frame)
+    cv2.imshow('Push-pong', frame)
 
     # Exit the loop when 'q' key is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
